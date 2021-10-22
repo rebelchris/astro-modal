@@ -1,42 +1,25 @@
-# Welcome to [Astro](https://astro.build)
+# Astro modal component
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/snowpackjs/astro/tree/latest/examples/starter)
+This component is a accesible and reusable Astro compopnent for creating modals.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## How to use it?
 
-## 🚀 Project Structure
+```jsx
+ ---
+// Component Imports
+import Modal from '../components/Modal.astro';
+---
 
-Inside of your Astro project, you'll see the following folders and files:
-
+<Modal id="dialog" open="Open modal">
+    <main slot="main">
+        <p>Some extra content you would like here</p>
+        <hr />
+        <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
+    </main>
+    <button slot="close">Close modal</button>
+</Modal>
 ```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Tell me more
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command         | Action                                      |
-|:----------------|:--------------------------------------------|
-| `npm install`   | Installs dependencies                       |
-| `npm run dev`   | Starts local dev server at `localhost:3000` |
-| `npm run build` | Build your production site to `./dist/`     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+Sure, I wrote a whole blog post on using this [Astro accessible modal component](https://daily-dev-tips.com/posts/accessible-and-reusable-modal-component-in-astro/).
