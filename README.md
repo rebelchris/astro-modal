@@ -1,6 +1,6 @@
 # Astro modal component
 
-This component is a accesible and reusable Astro compopnent for creating modals.
+This component is a reusable Astro compopnent for creating modals.
 
 ## How to use it?
 
@@ -22,4 +22,4 @@ import Modal from '../components/Modal.astro';
 
 ## Tell me more
 
-Sure, I wrote a whole blog post on using this [Astro accessible modal component](https://daily-dev-tips.com/posts/accessible-and-reusable-modal-component-in-astro/).
+Sure, I wrote a whole blog post on using this [Astro reusable modal component](https://daily-dev-tips.com/posts/reusable-modal-component-in-astro/).
